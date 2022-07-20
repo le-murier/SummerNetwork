@@ -1,3 +1,7 @@
+a{
+    color: #A0491E;
+    text-decoration: none;
+}
 .login {
     height: 100vh;
     background-image: url("background.png");
@@ -6,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "Public Sans", serif;
 
 }
 .loginWrapper {
@@ -15,6 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
 
 }
 .loginBox{
@@ -24,4 +30,26 @@
     flex-direction: column;
     justify-content: space-around;
     margin: auto;
+}
+
+.loginBox:first-child{
+    color: rgba(50, 21, 6, 0.88);
+}
+
+input{
+    border:none;
+    border-bottom: 1px solid rgba(0,0,0,0.44);
+}
+
+.login label{
+    text-align: center;
+}
+
+.loginButton {
+    width: 300px;
+    height: 50px;
+    background-color: rgba(186, 86, 36, 0.1);
+    border-radius: 10px;
+    color: #A0491E;
+    border: 1px solid #A0491E;
 }

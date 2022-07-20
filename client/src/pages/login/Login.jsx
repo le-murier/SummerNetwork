@@ -15,6 +15,7 @@ export default function Login () {
         <div className="login">
             <div className="loginWrapper">
                     <form className="loginBox" onSubmit={handleClick}>
+                        <label><h1>Sign in</h1></label>
                         <input
                             placeholder="Email"
                             type="email"
@@ -34,9 +35,9 @@ export default function Login () {
                         <span className="loginForgot"><Link to="/">Forgot Password?</Link></span>
                         <label> <input type="checkbox" /> Keep me signed in </label>
                         <button className="loginButton" type="submit" >
-                            "Log In"
+                            LOGIN
                         </button>
-                        <label>Not a member? Sign up</label>
+                        <label>Not a member? <Link to="/">Sign up</Link></label>
                     </form>
             </div>
         </div>
