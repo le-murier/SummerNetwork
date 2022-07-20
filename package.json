@@ -1,0 +1,25 @@
+{
+  "name": "summer-project",
+  "version": "1.0.0",
+  "description": "A project of open-source social network",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm run start --prefix client",
+    "server": "npm run start --prefix server",
+    "start": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/le-murier/SummerNetwork.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/le-murier/SummerNetwork/issues"
+  },
+  "homepage": "https://github.com/le-murier/SummerNetwork#readme",
+  "devDependencies": {
+    "concurrently": "^7.3.0"
+  }
+}
